@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddSubjectActivity">
+
+    <TextView
+        android:text="Thêm môn học"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtTitleSubject"
+        android:hint="Subject Title"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtSubjectCredit"
+        android:layout_gravity="center"
+        android:hint="Credit"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtSubjectTime"
+        android:layout_gravity="center"
+        android:hint="Time"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtSubjectPlace"
+        android:layout_gravity="center"
+        android:hint="Place"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAddSubject"
+        android:text="Add"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
